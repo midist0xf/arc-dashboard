@@ -1,4 +1,4 @@
-const API_BASE = 'https://github.com/midist0xf/arc-dashboard';
+const API_BASE = 'https://studio.arc.io';
 
 export async function fetchProjects(pageSize = 200) {
   const res = await fetch(`${API_BASE}/api/apps?pageSize=${pageSize}`);
